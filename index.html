@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Ciberseguridad en IoT</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!-- aditionals-AXG css -->
+      <link rel="stylesheet" href="css/aditionals.css">
+      <link rel="stylesheet" href="css/flipcard.css">
+      
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/Logo-udec.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="resumen.html">Resumen del Proyecto</a>
+                              </li>
+                              <!-- <li class="nav-item">
+                                 <a class="nav-link" href="service.html">Services</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="blog.html">Blog</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">Contact Us</a>
+                              </li> -->
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+               <li data-target="#banner1" data-slide-to="3"></li>
+               <li data-target="#banner1" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Ciberseguridad <br></h1>
+                                 <p>La ciberseguridad protege sistemas, redes y programas de ataques digitales, garantizando la integridad, confidencialidad y disponibilidad de la información</p>
+                                 <!-- <a href="#">About More </a> -->
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure>
+                                    <img src="images/cibersec-banner.jpg" alt="#"/>
+                                    <h3>01</h3>
+                                 </figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Internet <br>de las cosas</h1>
+                                 <p>El Internet de las Cosas es una red que conecta objetos físicos a Internet, permitiendo la recopilación y análisis de datos. Estos dispositivos, que pueden ser desde electrodomésticos hasta vehículos, interactúan y comunican entre sí para mejorar la eficiencia y la vida cotidiana</p>
+                                 <!-- <a href="#">About More </a> -->
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure>
+                                    <img src="images/iot-banner.jpg" alt="#"/>
+                                    <h3>02</h3>
+                                 </figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Industria <br>4.0</h1>
+                                 <p>La Industria 4.0, o cuarta revolución industrial, integra tecnologías digitales como IoT, IA, y Big Data en la producción. Esto permite automatización, eficiencia, y toma de decisiones basada en datos en tiempo real</p>
+                                 <!-- <a href="#">About More </a> -->
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure>
+                                    <img src="images/industria4-banner.jpg" alt="#"/>
+                                    <h3>03</h3>
+                                 </figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Innovación <br>Cultivos</h1>
+                                 <p>La innovación de cultivos implica técnicas avanzadas para mejorar la productividad y sostenibilidad de los cultivos, incluyendo la biotecnología</p>
+                                 <!-- <a href="#">About More </a> -->
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure>
+                                    <img src="images/innovacion-banner.jpg" alt="#"/>
+                                    <h3>04</h3>
+                                 </figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row d_flex">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <h1>Hemileia vastatrix <br>(Roya)</h1>
+                                 <p>La roya del café es considerada una de las enfermedades de plantas más catastróficas de toda la historia. Es el principal problema fitosanitario de alto impacto para la caficultura. Las pérdidas en América Latina se calculan en 30% de las cosechas</p>
+                                 <!-- <a href="#">About More </a> -->
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure>
+                                    <img src="images/roya.jpg" alt="#"/>
+                                    <h3>05</h3>
+                                 </figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- team -->
+      <div class="team">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="team_img">
+                     <figure><img src="images/resumen_project-500px.png" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-6 offset-md-1">
+                  <div class="titlepage">
+                     <h2>Resumen del Proyecto</h2>
+                     <p class="alinear_justificar">El internet de las cosas es un sistema para conectar dispositivos, maquinas digitales y mecánicas, objetos o individuos dotado con un UID y sin transferencia de datos sin contar con una relación de humano a humano o de computador a humano. IoT está un paso hacia la revolución del mundo moderno y logrando hazañas en el campo de la inteligencia artificial, y lo podemos representar con un ejemplo sencillo de nuestra vida diaria: el televisor es una pantalla de IoT, porque se puede cambiar de canales sin siquiera tocar la máquina, solo con ayuda de un control remoto</p>
+                     <!--<h3>PROJECTS COMPLETED</h3>
+                     <strong>1165 <span class="yellow">+</span></strong>
+                     <a class="read_more" href="resumen.html"> Read More</a> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- team -->
+         <!-- services -->
+
+        <div  class="services">
+            <div class="container">
+              
+             <div class="row">
+                  <div class="col-md-10 offset-md-1">
+                     <div class="titlepage">
+                        <h2>Objetivo General</h2>
+                        <p>Desarrollar estrategias de ciberdefensa para el sistema IoT de medición de variables ambientales y su efecto
+                           en la roya (Hemileia vastatrix) en cultivos de café en la provincia del Sumapaz (Cundinamarca-Colombia)</p>
+                          <h2>Objetivos Específicos</h2>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="circulo"><h1>1</h1></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="circulo"><h1>2</h1></div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="circulo"><h1>3</h1></div>
+                  </div>
+               </div>
+               <div class="row">
+                 
+                  <div class="col-md-4">
+                     
+                     
+                     <div id="serv_hover"  class="services_box">
+                        
+                        <i><img src="images/service3.png" alt="#"/></i>
+                        <h5>Explorar fuentes de información científica y técnica enfocadas en metodologías, herramientas y pruebas
+                           de ciberseguridad con el propósito de plantear escenarios de hacking para la identificación de
+                           vulnerabilidades en sistemas IoT</h5>
+                                                                                   
+                        <!-- <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> -->
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div id="serv_hover" class="services_box">
+                        <i><img src="images/service1.png" alt="#"/></i>
+                        <h5>Realizar pruebas de hacking para identificación de vulnerabilidades sobre escenarios del sistema IoT de
+                           medición de variables ambientales en cultivos de café en la provincia del Sumapaz.</h5>
+                        <!-- <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> -->
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div id="serv_hover" class="services_box">
+                        <i><img src="images/service2.png" alt="#"/></i>
+                        <h5>Determinar los porcentajes de incidencia y severidad de la roya (Hemileia vastatrix) y correlacionarlos
+                           con los escenarios de hacking del sistema IoT del cultivo de café en la provincia del Sumapaz</h5>
+                        <!-- <a class="right_irro" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end services -->
+         <!-- Flip card metodologia -->
+
+         
+         <div class="container">
+            
+
+            <div class="row">
+               <div class="col-md-10">
+                  <div class="titlepage">
+                     <h2> Metodología</h2>
+                     <p>La presente metodología se define el desarrollo de un proceso de identificación de vulnerabilidades a un sistema IoT que monitorea variables ambientales para cultivos de café </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+
+
+
+         <div class="container">
+            <div class="centrar_contenido_div "> 
+            <div class="row">
+            
+               
+               <div class="col-md-4"> 
+               
+            <div class="flip-card">               
+               <div class="flip-card-inner">                  
+                  <div class="flip-card-front">                     
+                       <div class="ideas_box">
+                           <h3>FASE 1</h3>
+                           <p>Revisión de vulnerabilidades en IOT</p>
+                        </div>                  
+                               
+                     </div>
+                     <div class="flip-card-back">
+                        <h1 style="color:white">Fase 1</h1> 
+                        <p>Las fuentes
+                           consultadas para sustentar el desarrollo de la investigación serán esenciales para definir el tipo de
+                           vulnerabilidades de cada sistema e identificar los procesos pertinentes para realizar las pruebas de
+                           ciberseguridad según el caso y la simulación de dispositivos IoT</p> 
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="col-md-4"> 
+               
+               <div class="flip-card">               
+                  <div class="flip-card-inner">                  
+                     <div class="flip-card-front">                     
+                          <div class="ideas_box">
+                              <h3>FASE 2</h3>
+                              <p>Revisión de estado del arte de escenarios de pruebas de ciberseguridad IOT</p>
+                           </div>                  
+                                  
+                        </div>
+                        <div class="flip-card-back">
+                           <h1 style="color:white">Fase 2</h1> 
+                           <p>Se
+                              llevará a cabo una investigación en diversas fuentes, incluyendo publicaciones especializadas, revistas
+                              científicas y otros documentos relevantes para conocer la manera en que otros investigadores han realizado
+                              desarrollo de pruebas de ciberseguridad en IoT</p> 
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-md-4"> 
+               
+                  <div class="flip-card">               
+                     <div class="flip-card-inner">                  
+                        <div class="flip-card-front">                     
+                             <div class="ideas_box">
+                                 <h3>FASE 3</h3>
+                                 <p>Elección de vulnerabilidades y escenarios de ciberseguridad para el sistema</p>
+                              </div>                  
+                                     
+                           </div>
+                           <div class="flip-card-back">
+                              <h1 style="color:white">Fase 3</h1> 
+                              <p>Con base en la evaluación de las
+                                 investigaciones del estado del arte, se seleccionará las vulnerabilidades, herramientas y escenarios que mejor
+                                 respondan a las necesidades y características del proyecto</p> 
+                              
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </div> <!--cierre container fase 1 a 3 -->
+          <hr>
+          <div class="container">
+               <div class="centrar_contenido_div "> 
+                  <div class="row">
+
+
+                  <div class="col-md-4"> 
+               
+                     <div class="flip-card">               
+                        <div class="flip-card-inner">                  
+                           <div class="flip-card-front">                     
+                                <div class="ideas_box">
+                                    <h3>FASE 4</h3>
+                                    <p>Simulación y montaje de los escenarios seleccionados en un ambiente Gray Box</p>
+                                 </div>                  
+                                        
+                              </div>
+                              <div class="flip-card-back">
+                                 <h1 style="color:white">Fase 4</h1> 
+                                 <p>El diseño del sistema real se llevará a cabo en un
+                                    escenario de prueba de Ethical Hacking.</p> 
+                                 
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-md-4"> 
+               
+                        <div class="flip-card">               
+                           <div class="flip-card-inner">                  
+                              <div class="flip-card-front">                     
+                                   <div class="ideas_box">
+                                       <h3>FASE 5</h3>
+                                       <p>Análisis de las respuestas obtenidas en las pruebas de penetración</p>
+                                    </div>                  
+                                           
+                                 </div>
+                                 <div class="flip-card-back">
+                                    <h1 style="color:white">Fase 5</h1> 
+                                    <p>Se realizará el reconocimiento de vulnerabilidades definiendo su origen y tipo, además enfocándose en sus causas, consecuencias, impactos y riesgos generados a la red IoT del cultivo de café</p> 
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-4"> 
+               
+                           <div class="flip-card">               
+                              <div class="flip-card-inner">                  
+                                 <div class="flip-card-front">                     
+                                      <div class="ideas_box">
+                                          <h3>FASE 6</h3>
+                                          <p>Determinación de incidencia y severidad del Hemileia
+                                             Vastatrix</p>
+                                       </div>                  
+                                              
+                                    </div>
+                                    <div class="flip-card-back">
+                                       <h1 style="color:white">Fase 6</h1> 
+                                       <p>Con el fin de determinar el porcentaje de incidencia y de severidad en el cultivo de café (Coffea
+                                          arabica) en cultivos de la región del Sumapaz Cundinamarca y su correlación con datos de temperatura y
+                                          humedad relativa se realizarán muestreos mensuales</p> 
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div> <!--cierre container fase 3 a 6 -->
+                  <hr>
+
+                  <div class="container">
+                        <div class="row">
+
+                           <div class="col-md-4"> 
+               
+                              <div class="flip-card">               
+                                 <div class="flip-card-inner">                  
+                                    <div class="flip-card-front">                     
+                                         <div class="ideas_box">
+                                             <h3>FASE 7</h3>
+                                             <p>Creación de estrategias para la mitigación de las vulnerabilidades e incidencias encontradas</p>
+                                          </div>                  
+                                                 
+                                       </div>
+                                       <div class="flip-card-back">
+                                          <h1 style="color:white">Fase 7</h1> 
+                                          <p>Finalmente a partir del análisis obtenido de las pruebas de seguridad y patológicas del sistema IoT y el cultivo de café
+                                             respectivamente</p> 
+                                          
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> <!--cierre container fase 7 a 7 -->
+
+
+
+            </div>
+         </div>
+
+         </div>
+         
+
+           
+       
+
+
+         <!-- end flip card -->
+
+
+
+         <!-- New Ideas  section -->
+         <!-- <div class="ideas">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-10">
+                     <div class="titlepage">
+                        <h2> Metodología</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="border_trbl">
+                  <div class="row">
+                     <div class="col-md-4">
+                        <div class="ideas_box">
+                           <h3>80%</h3>
+                           <p>Email Marketing</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="ideas_box">
+                           <h3>70%</h3>
+                           <p>Online Marketing</p>
+                        </div>
+                     </div>
+                     <div class="col-md-4">
+                        <div class="ideas_box">
+                           <h3>60%</h3>
+                           <p>Enterprise Marketing</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end New Ideas  section -->
+
+
+      <!-- testimonial -->
+
+      <!-- <div class="testimonial">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Testimonial</h2>
+                     <p>labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6 ">
+                  <div class="test_box margin_bottom">
+                     <p>psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                     <div class="test_icon">
+                        <i><img src="images/cos.png" alt="#"/></i>
+                        <h4>Joans Mark <br> <span class="yellow">Call</span></h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="test_box">
+                     <p>psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+                     <div class="test_icon">
+                        <i><img src="images/cos.png" alt="#"/></i>
+                        <h4>Joans Mark <br> <span class="yellow">Call</span></h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end testimonial -->
+      <br>
+      <br>
+      <!--  contact -->
+      <!-- <div class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Contactanos</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus1" placeholder="Message" type="type" Message="Name">
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-md-6">
+                  <div class="map">
+                     <figure><img src="images/map_img.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      <!-- end contact -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <img class="logo1" src="images/Logo_u.png" alt="https://www.ucundinamarca.edu.co/"/>
+                     <ul class="about_us">
+                        <li>Proyecto de investigación<br> Universidad de Cundinamarca <br>VI Convocatoria Interna<br> Programa de Ingeniería electrónica<br>Programa de Ingeniería Agronomica</li>
+                     </ul>
+                     <!-- <ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul> -->
+                  </div>
+                   <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <!-- <h3>Navegación</h3>
+                     <ul class="link_menu">
+                        <li><a href="/iot-ciberseguridad/index.html">Home</a></li>
+                        <li><a href="/iot-ciberseguridad/resumen.html">Resumen del Proyecto</a></li>
+                        <li><a href="#">About Departments</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li> 
+                     </ul> -->
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>Navegación</h3>
+                     <ul class="link_menu">
+                        <li><a href="/iot-ciberseguridad/index.html">Home</a></li>
+                        <li><a href="/iot-ciberseguridad/resumen.html">Resumen del Proyecto</a></li>
+                        <!-- <li><a href="#">About Departments</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li> -->
+                     </ul>
+                  </div>
+                  <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>Contact Us</h3>
+                     <ul class="link_menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About services</a></li>
+                        <li><a href="#">About Departments</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                     </ul>
+                  </div>  -->
+                  <div class="col-md-8 offset-md-4 ">
+                     <!-- <form class="bottom_form">
+                        <h3>Newsletter</h3>
+                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                        <button class="sub_btn">subscribe</button>
+                     </form> -->
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-10 offset-md-1">
+                        <p>© 2024 All Rights Reserved. Design by Alexander Gordillo G.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+
